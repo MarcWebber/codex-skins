@@ -1,0 +1,126 @@
+html[data-codex-skin="sandrone-atelier"] aside.app-shell-left-panel {
+  border-right: 1px solid var(--skin-border) !important;
+  box-shadow: 10px 0 30px rgba(50, 76, 98, .09) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] aside.app-shell-left-panel button:hover,
+html[data-codex-skin="sandrone-atelier"] aside.app-shell-left-panel [aria-current="page"] {
+  background: rgba(95, 147, 184, .12) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main[class*="MainContentSurface"] {
+  border-radius: 20px 0 0 0 !important;
+  box-shadow: -10px 0 30px rgba(50, 76, 98, .08) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] [class*="ComposerLayoutRoot"] {
+  box-shadow: 0 15px 34px rgba(50, 76, 98, .13) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] [role="dialog"],
+html[data-codex-skin="sandrone-atelier"] [role="menu"] {
+  box-shadow: 0 20px 46px rgba(50, 76, 98, .16) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"]:has(button[aria-label="打开个人资料菜单"][aria-expanded="true"]) [data-radix-popper-content-wrapper] > [role="menu"][data-side="top"] {
+  background-color: rgba(248, 251, 254, .90) !important;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, .82), rgba(244, 249, 253, .70)), var(--skin-profile-art) !important;
+  background-position: center, right center !important;
+  background-size: cover, cover !important;
+  background-repeat: no-repeat !important;
+}
+
+html[data-codex-skin="sandrone-atelier"]:has(button[aria-label="打开帮助菜单"][aria-expanded="true"]) [data-radix-popper-content-wrapper] > [role="menu"][data-side="top"] {
+  background-color: rgba(248, 251, 254, .90) !important;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, .82), rgba(240, 246, 251, .68)), var(--skin-help-art) !important;
+  background-position: center, right bottom !important;
+  background-size: cover, cover !important;
+  background-repeat: no-repeat !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] button[class*="min-h-26"] {
+  --skin-home-card-art: var(--skin-home-card-art-a);
+  --skin-home-card-border: rgba(75, 137, 180, .38);
+  --skin-home-card-shadow: rgba(75, 137, 180, .16);
+  background-color: rgba(251, 253, 255, .93) !important;
+  background-image: linear-gradient(90deg, rgba(253, 254, 255, .96), rgba(250, 252, 254, .83) 52%, rgba(244, 249, 252, .28)), var(--skin-home-card-art) !important;
+  background-position: center, center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover, cover !important;
+  border-color: var(--skin-home-card-border) !important;
+  box-shadow: 0 10px 24px var(--skin-home-card-shadow) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] button[class*="min-h-26"]:hover {
+  background-image: linear-gradient(90deg, rgba(253, 254, 255, .93), rgba(248, 251, 254, .73) 52%, rgba(240, 247, 251, .18)), var(--skin-home-card-art) !important;
+  box-shadow: 0 12px 28px var(--skin-home-card-shadow) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(1) button[class*="min-h-26"] {
+  --skin-home-card-art: var(--skin-home-card-art-a);
+  --skin-home-card-border: rgba(74, 145, 190, .40);
+  --skin-home-card-shadow: rgba(74, 145, 190, .17);
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(2) button[class*="min-h-26"] {
+  --skin-home-card-art: var(--skin-home-card-art-b);
+  --skin-home-card-border: rgba(176, 139, 71, .42);
+  --skin-home-card-shadow: rgba(176, 139, 71, .17);
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(3) button[class*="min-h-26"] {
+  --skin-home-card-art: var(--skin-home-card-art-c);
+  --skin-home-card-border: rgba(153, 61, 79, .42);
+  --skin-home-card-shadow: rgba(153, 61, 79, .17);
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(4) button[class*="min-h-26"] {
+  --skin-home-card-art: var(--skin-home-card-art-d);
+  --skin-home-card-border: rgba(62, 78, 101, .46);
+  --skin-home-card-shadow: rgba(44, 59, 80, .18);
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] button[class*="min-h-26"] > span:first-child > span:first-child {
+  width: 32px !important;
+  height: 32px !important;
+  border: 1px solid rgba(255, 255, 255, .82) !important;
+  border-radius: 10px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 26px 26px !important;
+  box-shadow: 0 5px 12px var(--skin-home-card-shadow) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] button[class*="min-h-26"] > span:first-child > span:first-child > * {
+  opacity: 0 !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(1) button[class*="min-h-26"] > span:first-child > span:first-child {
+  background-color: rgba(232, 247, 253, .96) !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M7 12h16v7a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6v-7Z' fill='%23f8fcff' stroke='%234a91be' stroke-width='1.8'/%3E%3Cpath d='M23 14h2.2a3.3 3.3 0 0 1 0 6.6H22' stroke='%234a91be' stroke-width='1.8'/%3E%3Cpath d='M9 10.5c3 1 9 1 12 0' stroke='%23b08b47' stroke-width='1.5'/%3E%3Cpath d='M10 26h12' stroke='%234a91be' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E") !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(2) button[class*="min-h-26"] > span:first-child > span:first-child {
+  background-color: rgba(252, 246, 232, .96) !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'%3E%3Ccircle cx='11' cy='12' r='5.5' fill='%23fffaf0' stroke='%23b08b47' stroke-width='2'/%3E%3Ccircle cx='11' cy='12' r='2' stroke='%23b08b47' stroke-width='1.5'/%3E%3Cpath d='m15 16 10 10M21 22l2-2M18.5 19.5l2-2' stroke='%23b08b47' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='m7 8 2-2m4 2 2-2' stroke='%235f93b8' stroke-width='1.5'/%3E%3C/svg%3E") !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(3) button[class*="min-h-26"] > span:first-child > span:first-child {
+  background-color: rgba(253, 237, 241, .96) !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M7 9h18M16 9v7M9 16h14M9 16l-3 8m17-8 3 8' stroke='%23993d4f' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M11 20c3-3 7 3 10 0 0 5-3 7-5 7s-5-2-5-7Z' fill='%23c96578' stroke='%23993d4f' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='9' r='2' fill='%23b08b47'/%3E%3C/svg%3E") !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] main:has([data-feature="game-source"]) section[class*="group/home-suggestions"] div[class*="grid-cols-"] > :nth-child(4) button[class*="min-h-26"] > span:first-child > span:first-child {
+  background-color: rgba(232, 238, 247, .96) !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M16 25 6 10c6-4 14-4 20 0L16 25Z' fill='%233e4e65' stroke='%232c3b50' stroke-width='1.8'/%3E%3Cpath d='M16 25V8m0 17L10 9m6 16 6-16' stroke='%239fb4c8' stroke-width='1.3'/%3E%3Ccircle cx='16' cy='25' r='2.5' fill='%2359b7d4' stroke='%232c3b50' stroke-width='1.2'/%3E%3C/svg%3E") !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] button[aria-label="停止"] {
+  color: #f8fbff !important;
+  background: linear-gradient(145deg, #5f93b8, #9c4659) !important;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, .66), 0 5px 16px rgba(64, 87, 106, .22) !important;
+}
+
+html[data-codex-skin="sandrone-atelier"] button[aria-label="停止"] svg {
+  color: inherit !important;
+}

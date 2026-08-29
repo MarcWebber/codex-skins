@@ -1,0 +1,22 @@
+{
+  "label": "桑多涅·镜械工坊",
+  "description": "冰白、古金、黑蕾丝与酒红缎带交织的人偶机关工坊",
+  "order": 40,
+  "vars": {
+    "--skin-color-scheme": "light",
+    "--skin-canvas": "#eaf0f5",
+    "--skin-surface": "rgba(250, 252, 255, .95)",
+    "--skin-sidebar": "rgba(243, 247, 251, .98)",
+    "--skin-control": "rgba(255, 255, 255, .97)",
+    "--skin-text": "#263647",
+    "--skin-muted": "#68798a",
+    "--skin-accent": "#5f93b8",
+    "--skin-on-accent": "#f8fbff",
+    "--skin-border": "rgba(76, 101, 122, .22)",
+    "--skin-font": "Avenir Next, PingFang SC, SF Pro Text, sans-serif",
+    "--skin-display-font": "Iowan Old Style, Songti SC, STSong, serif",
+    "--skin-code-font": "SFMono-Regular, Menlo, Monaco, monospace",
+    "--skin-art-position": "center center",
+    "--skin-art-opacity": ".21"
+  }
+}

@@ -30,13 +30,27 @@ skins/<id>/
 
 ## 投稿
 
+安装插件并登录 GitHub CLI 后，在 Codex 对话中直接说：
+
+```text
+把 <theme-id> 投稿到皮肤市场
+```
+
+Skin Creator 会先说明主题文件和图片将公开，再调用本地投稿脚本完成主题校验、版本生成、Manifest 构建、市场测试、功能分支推送和 Pull Request 创建。新主题从 `1.0.0` 开始；更新已有主题时自动递增 patch 版本。仓库归属者直接向本仓库推送功能分支，其他投稿者自动使用自己的 fork。脚本不会直接写入或合并 `main`。
+
+首次投稿前确认 `gh` 已登录：
+
+```bash
+gh auth status
+```
+
+也可以手动执行相同流程：
+
 1. Fork 本仓库并从 `main` 创建功能分支。
 2. 在 `skins/<id>/` 新增或修改一套皮肤。
 3. 运行 `npm run build` 自动更新 `manifest.json`。
 4. 运行 `npm test` 校验目录、元信息和 Manifest。
 5. 提交主题目录与生成后的 `manifest.json`，推送分支并发起 Pull Request。
-
-当前没有自动投稿 Pull Request 的按钮。Skin Creator 负责在本机创建、预览、校验和调试主题；公开投稿仍通过上述 GitHub PR 流程。后续的一键投稿应由本地 Skill 显式调用 `gh`，并在提交和推送前让用户确认，而不是让皮肤市场持有 GitHub Token。
 
 ## 验收
 

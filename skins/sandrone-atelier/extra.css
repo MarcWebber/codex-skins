@@ -22,7 +22,7 @@ html[data-codex-skin="sandrone-atelier"] [role="menu"] {
   box-shadow: 0 20px 46px rgba(50, 76, 98, .16) !important;
 }
 
-html[data-codex-skin="sandrone-atelier"]:has(button[aria-label="打开个人资料菜单"][aria-expanded="true"]) [data-radix-popper-content-wrapper] > [role="menu"][data-side="top"] {
+html[data-codex-skin="sandrone-atelier"] [role="menu"][data-codex-skin-menu="profile"] {
   background-color: rgba(248, 251, 254, .90) !important;
   background-image: linear-gradient(135deg, rgba(255, 255, 255, .82), rgba(244, 249, 253, .70)), var(--skin-profile-art) !important;
   background-position: center, right center !important;
@@ -30,7 +30,7 @@ html[data-codex-skin="sandrone-atelier"]:has(button[aria-label="打开个人资�
   background-repeat: no-repeat !important;
 }
 
-html[data-codex-skin="sandrone-atelier"]:has(button[aria-label="打开帮助菜单"][aria-expanded="true"]) [data-radix-popper-content-wrapper] > [role="menu"][data-side="top"] {
+html[data-codex-skin="sandrone-atelier"] [role="menu"][data-codex-skin-menu="help"] {
   background-color: rgba(248, 251, 254, .90) !important;
   background-image: linear-gradient(135deg, rgba(255, 255, 255, .82), rgba(240, 246, 251, .68)), var(--skin-help-art) !important;
   background-position: center, right bottom !important;
